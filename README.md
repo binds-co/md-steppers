@@ -5,17 +5,23 @@ https://www.google.com/design/spec/components/steppers.html#steppers-types-of-st
   - basic directive based on material steppers
 
 demo https://ipiz.herokuapp.com/demo/index.html
+fiddle https://jsfiddle.net/ipiz/vcdbuyru/2/
 
 ### usage
+####  using bower
 ```shell
 bower install md-steppers --save
+```
+#### or using npm
+```shell
+npm install md-steppers --save
 ```
 ```javascript
 //module
 var app = angular.module('app', ['ngMaterial', 'md-steppers']);
 ```
 ```html
-<!--markup--->
+<!--markup-->
 <md-steppers>
     <md-step label="Step 1" md-complete="step1.completed"  ng-disabled="step1.disabled">
         <md-content></md-content>

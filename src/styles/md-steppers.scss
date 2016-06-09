@@ -186,6 +186,8 @@ md-steppers-canvas {
         position: absolute;
         top: 0;
         left: 0;
+        width: 1px;
+        height: 1px;
     }
 
      &.md-paginated {
@@ -532,6 +534,10 @@ md-step {
     &.ng-leave {
         transition: none;
     }
+}
+
+.md-step-nopointer {
+  cursor: auto;
 }
 
 md-toolbar + md-steppers {
